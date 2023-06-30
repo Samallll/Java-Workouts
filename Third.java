@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 class Third{
 
+    static Scanner scan;
+
     float simpleInrterest(){
 
-    float si;
-    Scanner scan = new Scanner(System.in);
     System.out.println("Enter Principle Amount");
     int p = scan.nextInt();
     System.out.println("Enter Intrest Rate");
@@ -13,11 +13,12 @@ class Third{
     System.out.println("Entere Number of Years");
     float n=scan.nextFloat();
 
-    return si= (p*r*n)/100;
+    return (p*r*n)/100;
 
 
     }
     public static void main(String[] args) {
+        scan = new Scanner(System.in);
         Third obj = new Third();
         System.out.println("Simple Interest :" + obj.simpleInrterest());
 }

@@ -5,7 +5,7 @@ class Seven {
     public static void main(String[] args) {
 
         Scanner scanObj = new Scanner(System.in);
-        System.out.println("Enter the number: ")
+        System.out.println("Enter the number: ");
         int n = scanObj.nextInt();
         int value;
         for (int i = 1; i <=10; i++) {
