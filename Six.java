@@ -35,7 +35,7 @@ class Six {
         }
 
     public static void main(String[] args) {
-        Days obj = new Days();
+        Six obj = new Six();
         obj.findDays();
     }
 }
