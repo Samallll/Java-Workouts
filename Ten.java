@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Ten {
 
     public static void main(String[] args) {
-        int i,j,k,size,temp;
+        int i,k,size,temp;
         Scanner scanobj = new Scanner(System.in);
         System.out.println("Enrer array size:");
         size=scanobj.nextInt();
